@@ -1,0 +1,25 @@
+{
+  "name": "babylonjs-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zentyk/babylonjs-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zentyk/babylonjs-template/issues"
+  },
+  "homepage": "https://github.com/zentyk/babylonjs-template#readme",
+  "devDependencies": {
+    "@babylonjs/core": "^5.5.6",
+    "@babylonjs/inspector": "^5.5.6",
+    "esbuild": "^0.14.38"
+  }
+}
