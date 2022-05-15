@@ -1,7 +1,4 @@
-import "@babylonjs/core/Debug/debugLayer";
-import "@babylonjs/inspector";
-import "@babylonjs/loaders/glTF";
-import { Engine, Scene, FreeCamera, Vector3, HemisphericLight, Mesh} from "@babylonjs/core";
+import { Engine, Scene, FreeCamera, Vector3 } from "@babylonjs/core";
 
 class App {
     constructor() {

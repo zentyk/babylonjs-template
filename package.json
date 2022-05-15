@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node esbuild.js"
+    "build": "esbuild src/app.ts --bundle --sourcemap --target=es2015 --minify --tsconfig=tsconfig.json --format=esm --outfile=dist/app.js",
+    "nodebuild": "node esbuild.js"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,6 @@
   "homepage": "https://github.com/zentyk/babylonjs-template#readme",
   "devDependencies": {
     "@babylonjs/core": "^5.5.6",
-    "@babylonjs/inspector": "^5.5.6",
     "esbuild": "^0.14.38"
   }
 }
