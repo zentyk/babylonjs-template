@@ -6,6 +6,6 @@ esbuild.build({
     sourcemap : true,
     target : 'es2015',
     minify : true,
-    outfile: './dist/app.js',
+    outfile: './dist/01/app.js',
     tsconfig: './tsconfig.json'
 }).catch(() => process.exit(1));
