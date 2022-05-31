@@ -3,11 +3,8 @@ import {
     Scene,
     FreeCamera,
     Vector3,
-    Color3,
     MeshBuilder,
-    ArcRotateCamera,
-    SpriteManager,
-    Sprite, HemisphericLight
+    HemisphericLight
 } from "@babylonjs/core";
 class App {
     constructor() {
