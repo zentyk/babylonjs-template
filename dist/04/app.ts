@@ -37,15 +37,7 @@ class App {
             scene
         );
 
-        let spriteManager = new SpriteManager(
-            "spriteManager",
-            "./ciel1.png",
-            1,
-            {width: 50, height: 50},
-            scene
-        )
 
-        let ciel = new Sprite("ciel", spriteManager);
 
         return scene;
     }

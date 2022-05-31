@@ -70,10 +70,6 @@ class App {
         let groundHm = MeshBuilder.CreateGroundFromHeightMap("ground", './ground.png', {width:0.5, height:0.5, subdivisions:32, minHeight:0, maxHeight:0.5}, scene);
         groundHm.position = new Vector3(-2,1,0);
 
-
-
-
-
         return scene;
     }
 }
