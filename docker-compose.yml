@@ -8,4 +8,4 @@ services:
     ports:
       - "80:80"
     volumes:
-      - ./dist/06:/usr/share/nginx/html:ro
+      - ./dist/07:/usr/share/nginx/html:ro
