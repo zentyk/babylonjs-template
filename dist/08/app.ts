@@ -36,7 +36,7 @@ class App {
 
         let ground = MeshBuilder.CreateGround("ground", {width: 10, height: 10}, scene);
 
-        //let light = new PointLight("pointLight", new Vector3(-2, 2, -2), scene);
+        let light = new PointLight("pointLight", new Vector3(-2, 2, -2), scene);
 
         let box1 = MeshBuilder.CreateBox("box", {size: 0.75}, scene);
         let box2 = MeshBuilder.CreateBox("box", {size: 1}, scene);
